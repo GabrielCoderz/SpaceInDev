@@ -275,7 +275,6 @@ html {
     width: 100%;
     padding: 80px 80px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background: rgb(29, 29, 160);
@@ -284,13 +283,16 @@ html {
 .contact .contactBx {
     max-width: 1200px;
     margin-top: 30px;
+    margin-right: 85px ;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .contact .contactBx .contact-content {
     height: 200px;
     width: 200px;
+    margin-left: 80px;
     border-radius: 20px;
     background: #fff;
     display: flex;
